@@ -12,7 +12,7 @@ import streamlit as st
 os.environ['GROQ_API_KEY'] = st.secrets["groq_api_key"]
 
 DB_FAISS_PATH = "vectorstore/db_faiss"
-PDF_PATH = "Medical Book.pdf"
+PDF_PATH = "Medical_Book.pdf"
 
 @st.cache_resource
 def vector():
