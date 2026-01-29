@@ -8,8 +8,8 @@ from langchain_community.vectorstores import FAISS
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_groq import ChatGroq  
 
-from secret_api_keys import groq_api_key
-os.environ['GROQ_API_KEY'] = groq_api_key
+import streamlit as st
+os.environ['GROQ_API_KEY'] = st.secrets["groq_api_key"]
 
 DB_FAISS_PATH = "vectorstore/db_faiss"
 PDF_PATH = "Medical Book.pdf"
