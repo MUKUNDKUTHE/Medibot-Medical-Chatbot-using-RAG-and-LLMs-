@@ -1,7 +1,7 @@
 streamlit
-langchain==0.0.354
-langchain-community==0.0.20
-langchain-huggingface==0.0.3
+langchain
+langchain-community
+langchain-huggingface
 faiss-cpu
 sentence-transformers
 PyPDF2
