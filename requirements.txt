@@ -1,8 +1,8 @@
+streamlit
 langchain==0.0.354
 langchain-community==0.0.20
-langchain-huggingface==0.0.6
+langchain-huggingface==0.0.3
 faiss-cpu
 sentence-transformers
 PyPDF2
-streamlit
 langchain-groq
