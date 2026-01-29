@@ -1,8 +1,8 @@
-langchain
-langchain-huggingface
-langchain_community
-PyPDF2
+langchain==0.0.354
+langchain-community==0.0.20
+langchain-huggingface==0.0.6
 faiss-cpu
 sentence-transformers
+PyPDF2
 streamlit
 langchain-groq
