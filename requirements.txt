@@ -5,3 +5,5 @@ faiss-cpu
 sentence-transformers
 PyPDF2
 langchain-groq
+pydantic<2.0,>=1.10.2
+
